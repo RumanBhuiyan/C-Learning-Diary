@@ -1,0 +1,19 @@
+
+--->STL(Standard Template Library) Topics:
+STL has four Components
+    i)Algorithms
+    ii)Containers
+    iii)functions
+    iv)Iterators
+
+Containers : 
+          Pair Template
+          Tuple Template
+          Array
+          Vector
+          List
+          Map
+          Stack
+          Queue
+          Priority Queue
+          Deque
