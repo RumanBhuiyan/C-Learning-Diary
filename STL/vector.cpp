@@ -7,7 +7,7 @@ using namespace std;
 int main(){
   vector<int> myVector;
    //vector<int> myVector{55,56,57}; initializing Vector with certain elements
-   
+
   //Inserting Numbers into vector using push_back function
   for(int i=0;i<10;i++){
     //myVector[i]=i; you can't do it because vector didn't allocate space yet
@@ -33,16 +33,22 @@ int main(){
   }
 
   cout<<"\nIs Vector empty ? "<<myVector.empty()<<endl;
+
   cout<<"First Elemet : "<<myVector.front()<<endl;
   //cout<<"\nFirst Elemet : "<<*myVector.begin()<<endl;//begin returns a pointer
+
   cout<<"Last Elemet : "<<myVector.back()<<endl;
   //cout<<"Last Elemet : "<<*myVector.end()<<endl;//.end() returns a pointer
+
   cout<<"Element at certain position : "<<myVector.at(4)<<endl;
   //cout<<"Element at certain position : "<<myVector.operator[](4)<<endl;
+
   cout<<"Vector Current Size : "<<myVector.size()<<endl;
   //capacity>=current size of vector because it takes extra space to fit next inputs
   //myVector.shrink_to_fit(); makes myVector.capacity() equals to myVector.size()
+
   cout<<"Vector Current Capacity : "<<myVector.capacity()<<endl;
+  
   cout<<"Vector Maximum Size : "<<myVector.max_size()<<endl;
 
   //Accessing Vector using pointer
@@ -52,6 +58,7 @@ int main(){
   // }
   return 0;
 }
+
 //v1.swap(v2) //Swaping two vector values simmillar as v2.operator=(v1);
 //v.empty() // checks wheter the vector is empty or not
 //v.insert(location_pointer,value)//Inserting Value using location pointer
