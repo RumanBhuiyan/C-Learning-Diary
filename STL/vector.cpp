@@ -48,7 +48,7 @@ int main(){
   //myVector.shrink_to_fit(); makes myVector.capacity() equals to myVector.size()
 
   cout<<"Vector Current Capacity : "<<myVector.capacity()<<endl;
-  
+
   cout<<"Vector Maximum Size : "<<myVector.max_size()<<endl;
 
   //Accessing Vector using pointer
