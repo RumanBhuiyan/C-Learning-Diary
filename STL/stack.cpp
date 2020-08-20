@@ -29,4 +29,41 @@ int main()
 
   return 0;
 }
+
 //stack1.swap(stack2); used for swaping two stack
+//checking Palindrome using stack concept
+//checking palindrome using stack
+
+// #include<iostream>
+// #include<stack>
+// using namespace std;
+// int main(){
+//   //takes two stack first
+//   stack<int> s1,s2;
+//   string word;
+//   cout<<"Enter the word : ";
+//   cin>>word;
+//
+//   //storing the characters in stack
+//   for(int i=0,j=word.length()-1;i<word.length();i++,j--){
+//     s1.push(word[i]);
+//     s2.push(word[j]);
+//   }
+//
+//   int is_palindrome=1;
+//
+//   for(auto i=0;i<word.length();i++){
+//      if(s1.top()==s2.top()){
+//         s1.pop();
+//         s2.pop();
+//         continue;
+//      }
+//      is_palindrome=0;
+//   }
+//   if(is_palindrome){
+//     cout<<"Palindrome "<<endl;
+//   }
+//   else
+//   cout<<"Not Palindrome"<<endl;
+//   return  0;
+// }

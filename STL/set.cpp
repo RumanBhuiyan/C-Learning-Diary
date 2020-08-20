@@ -3,6 +3,7 @@
 //go through it: https://www.geeksforgeeks.org/set-in-cpp-stl/
 //though set is sorted in increasing order but you can sort your set in decrease order
 // to like set<int,greater<int>>mySet;
+//set doesn't allow insertion of same value but multiset allows it
 
 #include<iostream>
 #include<set>
@@ -70,3 +71,5 @@ void showIncreasedSetItems(set<int>increasedSet){
 //set.begin();returns the first pointer location of first elements
 //set.erase(value); this will delete the value from the set
 //begin,end,count,swap,rbegin,rend,size,max_size,etc methods are also available in set
+//set doesn't allow insertion of same value but multiset allows incase you can
+// go through it

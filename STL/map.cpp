@@ -2,6 +2,7 @@
 //N.B don't conflict name like use map<int,int>myMap instead of map<int,int>map
 //quick learning link : https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/
 // https://www.studytonight.com/cpp/stl/stl-container-map
+//map doesn't allow different valu for same key but multimap allows
 
 #include<iostream>
 #include<map>
@@ -78,3 +79,5 @@ void showMapItems(map<int,int>keepMap){
 //map.count(key); returns 1 if key exists else returns 0 if key doesn't exist
 //copyMap=mymap ; copying map
 //map.at(key); returns the value of that key
+
+//map doesn't allow different valu for same key but multimap allows
