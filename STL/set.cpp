@@ -1,5 +1,5 @@
 //in set if you insert values they are sorted automatically after insertion you can't
-//modify any value but you can add remove elements from set
+//modify any value but you can add remove elements from set,evey value must be unique
 //go through it: https://www.geeksforgeeks.org/set-in-cpp-stl/
 //though set is sorted in increasing order but you can sort your set in decrease order
 // to like set<int,greater<int>>mySet;
