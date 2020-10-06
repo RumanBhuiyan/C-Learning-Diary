@@ -6,10 +6,10 @@ https://www.geeksforgeeks.org/the-c-standard-template-library-stl/#:~:text=The%2
 
 --->STL(Standard Template Library) Topics:
 STL has four Components
-    i)Algorithms
+    i)Algorithms (Some Built In functions like sort(),merge())
     ii)Containers
     iii)functions
-    iv)Iterators
+    iv)Iterators (simmillar as pointer)
 
 Containers :
           Pair Template
@@ -23,8 +23,41 @@ Containers :
           Priority Queue
           Deque
 
+Data Structure & Algorithms :
 
-                       Topics:
+          i)Array (One Dimensional & Two Dimensional array)
+          ii)Linked List :
+                  -single linked List
+                  -doubly linked List
+          iii)Stack :
+          iv) Queue :
+          v)  Tree :
+                 -Binary Tree
+                 -Binary Search Tree
+                 -AVL Tree
+          vi)Graph :
+                 -BFS(Breadth First Search)
+                 -DFS(Depth First Search)
+                 -Spanning Tree(Prim's Algorithm , Krushkal's Algorithm)
+          vii)Searching :
+                 -Linear Search
+                 -Binary Search
+                 -Ternary Search
+          viii)Sorting  :
+                  -Insertion Sort
+                  -Selection Sort
+                  -Bubble Sort
+                  -Merge Sort
+                  -Counting Sort
+                  -Topological Sort
+                  -STL Sort function
+           ix) Heap
+           x) Hashing
+
+
+
+                    Important Topics For Interviews:
+
                   1.Complexity Analysis
                   2.Memory Analysis
                   3.Big O Notation
@@ -46,4 +79,4 @@ Containers :
                   19.Backtracking
                   20.Bit Manipulation
                   21.Segment Tree
-                  22.Topological Sort 
+                  22.Topological Sort

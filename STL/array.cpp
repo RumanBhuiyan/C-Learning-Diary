@@ -20,6 +20,7 @@ int main(){
 
   cout<<"Is the array empty : "<<names.empty()<<endl;
 
+
   //cout<<"String at first position : "<<names.at(0)<<endl;
   //cout<<"String at first position : "<<names[0]<<endl; c style array value Accessing
   //cout<<"String at first position : "<<get<0>(names)<<endl;same job done by overloaded method get  from tuple class
@@ -27,6 +28,7 @@ int main(){
   //cout<<"Element at first position : "<<*names.begin(); finding first element using pointer
 
   cout<<"String at last position : "<<*(names.begin()+3)<<endl;//last sting using pointer
+  
 
   cout<<"Size of the String array : "<<names.size()<<endl;
 
