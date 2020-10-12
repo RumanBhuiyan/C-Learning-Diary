@@ -1,5 +1,5 @@
 //Binary Search i)first sort the array ii)then search through it
-
+//My Solution 
 #include<bits/stdc++.h>
 using namespace std;
 

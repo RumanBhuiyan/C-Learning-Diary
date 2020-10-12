@@ -1,3 +1,4 @@
+//My Solution 
 #include<bits/stdc++.h>
 using namespace std;
 int indexOf(int a[],int size,int num);
