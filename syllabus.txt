@@ -47,9 +47,9 @@ Data Structure & Algorithms :
                   -Insertion Sort
                   -Selection Sort
                   -Bubble Sort
-                  -Merge Sort
+                  -Quick Sort
                   -Counting Sort
-                  -Topological Sort
+                  -Topological Sort(After Learning Graph)
                   -STL Sort function
            ix) Heap
            x) Hashing
