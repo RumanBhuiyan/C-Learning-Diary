@@ -2,24 +2,25 @@
 using namespace std;
 
 bool isPrime(int number){
-    int numOfDivsiors = 0;
+    bool prime = true;
 
-    for (int i=1; i<= number; i++){
-        if(i <= number/i){
-            if(number %i ==0){
-                if(i !=1 && i!= number){
-                numOfDivsiors += 1;
-                }
+    if(number <=1) prime = false;
+    else {
+        for(int i=2;i<= number ; i++){
+            if (i > number/i) break;
+            if( number % i ==0 ) {
+                prime = false;
+                break;
             }
-        }else break;
+        }
     }
-    return (numOfDivsiors==0 ? true : false);
+    return prime ;
 }
 
 int main()
 {
     int number;
-    cout<<"Enter number: ";
+    cout<<"Enter number: "; 
     cin>>number;
 
     cout<<(isPrime(number) ? "Prime Number": "Not Prime Number")<<endl;
