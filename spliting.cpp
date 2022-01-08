@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<sstream>
 using namespace std;
 int main()
 {
@@ -6,7 +7,7 @@ int main()
     string word;
 
     // input a line. example : 1 2 3.here gets() allows space sperated inputs
-    gets(line);
+    scanf("%[^\n]",line);// telling scanf to read input untill it gets a newline
     istringstream stream(line);
 
     while(stream >> word){
